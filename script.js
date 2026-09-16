@@ -59,9 +59,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const typingText = document.querySelector('.typing-text');
 const roles = [
     'Analista de TI',
+    'Desenvolvedor Backend',
     'Desenvolvedor Python',
-    'Analista de Dados',
-    'DevOps Engineer'
+    'Analista de Dados'
 ];
 
 let roleIndex = 0;
