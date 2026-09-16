@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christian Lindoso Froz - Analista de TI | Desenvolvedor Python & Análise de Dados">
+    <title>Christian Lindoso Froz - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-text">CL</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-menu-links">
+            <a href="#home" class="mobile-link">Início</a>
+            <a href="#about" class="mobile-link">Sobre</a>
+            <a href="#projects" class="mobile-link">Projetos</a>
+            <a href="#skills" class="mobile-link">Habilidades</a>
+            <a href="#contact" class="mobile-link">Contato</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Olá, eu sou</span>
+                    <h1 class="hero-name">Christian Lindoso Froz</h1>
+                    <p class="hero-title">
+                        <span class="typing-text">Analista de TI</span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <p class="hero-subtitle">
+                        Especializado em <span class="highlight">Python</span>, 
+                        <span class="highlight">Análise de Dados</span> e 
+                        <span class="highlight">Automação de Infraestrutura</span>
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Ver Projetos
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Contato
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/christianlf" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/christian-lindoso-froz" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:christianlindoso18@gmail.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-container">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-badge badge-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        <strong>Analista de TI</strong> com foco em desenvolvimento Python, análise de dados e automação de infraestrutura. 
+                        Atualmente estudando <strong>Engenharia de Software</strong> na <strong>PUC-Campinas</strong>.
+                    </p>
+                    <p>
+                        Experiência em desenvolvimento de sistemas de monitoramento, análise de dados com Python 
+                        (Pandas, NumPy, Plotly), desenvolvimento web e mobile, além de infraestrutura de TI 
+                        (Active Directory, redes, virtualização).
+                    </p>
+                    <p>
+                        Busco oportunidades como <strong>Analista de Dados</strong> ou <strong>Desenvolvedor Python</strong>, 
+                        onde possa aplicar habilidades técnicas em projetos que gerem impacto real.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Campinas, SP</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>PUC-Campinas - Eng. Software</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Analista de TI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">6</h3>
+                            <p class="stat-label">Projetos no GitHub</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-label">Tecnologias</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">2+</h3>
+                            <p class="stat-label">Anos de Experiência</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Alguns dos meus trabalhos mais recentes</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Projeto 1: Infra Health Monitor -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                    <h3 class="project-title">Infra Health Monitor</h3>
+                    <p class="project-description">
+                        Ferramenta CLI em Python para automação de monitoramento de infraestrutura (ICMP ping, TCP port, HTTP checks). 
+                        Inclui retry logic, alertas via webhook (Discord/Slack), relatórios CSV/JSON e execução paralela (10x speedup).
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">pytest</span>
+                        <span class="tech-tag">Threading</span>
+                        <span class="tech-tag">YAML</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-code"></i>
+                            <span>3000+ linhas de docs</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-vial"></i>
+                            <span>36 unit tests</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/christianlf/infra-health-monitor" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://github.com/christianlf/infra-health-monitor/blob/main/TECHNICAL_CASE_STUDY.pdf" target="_blank" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Case Study
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: Sistema de Gestão de Produtos -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Sistema de Gestão de Produtos</h3>
+                    <p class="project-description">
+                        Projeto integrador desenvolvido na PUC-Campinas. Sistema completo de gestão de produtos 
+                        com CRUD, controle de estoque e interface desktop. Aplicação de conceitos de engenharia de software.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">CRUD</span>
+                        <span class="tech-tag">Desktop</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-university"></i>
+                            <span>Projeto Acadêmico PUC</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <span>1 star</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/christianlf/ProjetoIntegrador" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3: Análise de Dados com Python -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Exercícios de IA & Análise de Dados</h3>
+                    <p class="project-description">
+                        Coleção de exercícios práticos de Inteligência Artificial e análise de dados. 
+                        Inclui implementações de algoritmos de ML, processamento de dados com Pandas/NumPy e visualizações com Plotly.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Plotly</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Visualization</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/christianlf/IA_Exerc-cios" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/christianlf?tab=repositories" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> Ver Todos os Projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Linguagens de Programação -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Linguagens</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Kotlin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Análise de Dados & BI -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Análise de Dados & BI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-area"></i>
+                            <span>Plotly</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bancos de Dados -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Bancos de Dados</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-google"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firestore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferramentas & DevOps -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ferramentas & DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android Studio</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-windows"></i>
+                            <span>Windows Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infraestrutura -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Infraestrutura</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Redes</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-dns"></i>
+                            <span>DNS/DHCP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users-cog"></i>
+                            <span>Active Directory</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hdd"></i>
+                            <span>WDS/PXE</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>VMs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web & Mobile -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Web & Mobile</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-stream"></i>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Jetpack Compose</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-eye"></i>
+                            <span>YOLO/Ultralytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Estou aberto a oportunidades e projetos interessantes</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:christianlindoso18@gmail.com">christianlindoso18@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/christian-lindoso-froz" target="_blank">christian-lindoso-froz</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/christianlf" target="_blank">@christianlf</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Localização</h3>
+                        <p>Campinas, SP - Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Christian Lindoso Froz. Todos os direitos reservados.</p>
+                <p class="footer-subtitle">Desenvolvido com <i class="fas fa-heart"></i> e <i class="fab fa-python"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
